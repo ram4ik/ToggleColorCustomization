@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95404AD32462C3CB0071C24D /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404AD22462C3CB0071C24D /* ToggleView.swift */; };
+		95404AD52462C55C0071C24D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404AD42462C55C0071C24D /* ListView.swift */; };
 		95C8EA0A2343545D00F3CCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C8EA092343545D00F3CCEC /* AppDelegate.swift */; };
 		95C8EA0C2343545D00F3CCEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C8EA0B2343545D00F3CCEC /* SceneDelegate.swift */; };
 		95C8EA0E2343545D00F3CCEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C8EA0D2343545D00F3CCEC /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95404AD22462C3CB0071C24D /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		95404AD42462C55C0071C24D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		95C8EA062343545D00F3CCEC /* ToggleColorCustomization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleColorCustomization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C8EA092343545D00F3CCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C8EA0B2343545D00F3CCEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				95C8EA142343545E00F3CCEC /* LaunchScreen.storyboard */,
 				95C8EA172343545E00F3CCEC /* Info.plist */,
 				95C8EA112343545E00F3CCEC /* Preview Content */,
+				95404AD22462C3CB0071C24D /* ToggleView.swift */,
+				95404AD42462C55C0071C24D /* ListView.swift */,
 			);
 			path = ToggleColorCustomization;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95404AD32462C3CB0071C24D /* ToggleView.swift in Sources */,
 				95C8EA0A2343545D00F3CCEC /* AppDelegate.swift in Sources */,
+				95404AD52462C55C0071C24D /* ListView.swift in Sources */,
 				95C8EA0C2343545D00F3CCEC /* SceneDelegate.swift in Sources */,
 				95C8EA0E2343545D00F3CCEC /* ContentView.swift in Sources */,
 			);
